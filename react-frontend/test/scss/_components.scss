@@ -1,0 +1,17 @@
+@use 'variables';
+
+.button {
+    background-color: variables.$primary-color;  // Используем переменную через префикс "variables"
+    color: black;
+    padding: 10px 20px;
+    font-family: variables.$font-family;  // Также добавляем префикс для переменных
+    font-size: variables.$font-size;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    // Вложенность для наведения
+    &:hover {
+        background-color: variables.$hover-color; // Используем переменную через префикс "variables"
+    }
+}

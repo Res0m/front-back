@@ -1,0 +1,15 @@
+.button {
+  background-color: #3498db;
+  color: black;
+  padding: 10px 20px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(36.7380753138, 138.7882845188, 207.1619246862);
+}
+
+/*# sourceMappingURL=style.css.map */

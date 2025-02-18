@@ -1,0 +1,7 @@
+@use "sass:color";  // Подключаем модуль для работы с цветами
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$hover-color: color.scale($primary-color, $lightness: -10%); // Правильно используем color.scale
+
+$font-family: "Helvetica", sans-serif;
+$font-size: 16px;
