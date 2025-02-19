@@ -1,0 +1,27 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #3498db;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */
